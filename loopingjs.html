@@ -30,6 +30,25 @@
 document.getElementById("looping_result").innerHTML = text;
 </script>
 
+<button onclick="looping()">Button</button>
+<div id="looping_for"></div>
+
+<script>
+	function looping() {
+		var text="";
+		var x;
+
+		for (x = 0; x <= 10; x++){
+			text += "Angka " + x + "<br>";
+		}
+		document.getElementById("looping_for").innerHTML = text;
+	}
+
+</script>
+
+
+
+
 
 </body>
 </html>
