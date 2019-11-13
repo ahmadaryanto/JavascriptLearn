@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning looping in javascript</title>
+</head>
+<body>
+
+<h1>Learning looping in javascript</h1>
+<div id="looping_result"></div>
+
+<script>
+	var color = "merah/red";
+
+	switch (color){
+		case "hitam/black":
+			text = "This color is black";
+			break;
+		case "merah/red":
+			text = "This color is red";
+			break;
+		case "biru/blue":
+			text= "This color is blue";
+			break;
+		default:
+			text = "No color";
+	}
+
+//i just found out instead of semicolon after case it use colon :D
+
+document.getElementById("looping_result").innerHTML = text;
+</script>
+
+
+</body>
+</html>
