@@ -69,6 +69,8 @@
 
 <div id="result"></div>
 
+
+
 <script>
 	//object data type
 	var human = {
@@ -83,8 +85,17 @@
 		document.getElementById("result").innerHTML = human.name + " lives in " + human.address + ". He is" + human.age + " year old and his job is " + human.job;
 </script>
 
+<h1> testing function </h1>
+<div id="result2"></div>
+	<script>
+		//learning function 
+		function show_name()
+		{
+			return "My name is Ahmad Jeffry Aryanto";
+		}
 
-
+		document.getElementById("result2").innerHTML = show_name();
+	</script>
 
 </body>
 </html>
