@@ -10,12 +10,24 @@
 <h1>Ahmad Jeffry Aryanto</h1>
 <script>
 
-	var kalimat =  "Selamat Datang di tutorial string javascript";
-	var temukan = kalimat.indexOf("tutorial");
+	var word =  "Selamat Datang di tutorial string javascript";
+	var temukan = word.indexOf("tutorial");
 	document.getElementById("Example").innerHTML = temukan;
 
 </script>
-dd
+
+<!-- We can use search , not only indexof or last index of -->
+
+<h1> Ahmad - Search String number</h1>
+<p id="example2"></p>
+
+<script>
+
+		var word = "Learning JS string manipulation";
+		var find = word.search("JS");
+		document.getElementById("example2").innerHTML = find;
+</script>
+
 
 
 </body>
